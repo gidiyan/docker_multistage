@@ -16,7 +16,6 @@ RUN apk add python3 py3-pip && \
 WORKDIR /opt/flask-app
 ADD flask-app /opt/flask-app
 RUN addgroup -S node && adduser -S node -G node
-WORKDIR /opt/flask-app
 RUN apk add npm &&  npm install --only=production
 USER node
 EXPOSE 5000

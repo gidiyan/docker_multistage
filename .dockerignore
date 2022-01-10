@@ -1,0 +1,7 @@
+.git
+Dockerfile
+Dockerfile.old
+docker-compose.yml
+setup-aws-ecs.sh
+setup-docker-multi.sh
+setup-docker.sh
